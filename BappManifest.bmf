@@ -7,7 +7,7 @@ SerialVersion: 1
 MinPlatformVersion: 2
 ProOnly: False
 Author: dubey-amit
-ShortDescription: Converts curl commands into HTTP requests within Burp Suite's Repeater, eliminating manual request reconstruction. Supports different HTTP methods and request bodies.
+ShortDescription: Converts curl commands into HTTP requests within Repeater, eliminating manual request reconstruction.
 EntryPoint: curl-commander.py
 BuildCommand: 
 SupportedProducts: Pro, Community
