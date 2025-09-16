@@ -1,0 +1,13 @@
+Uuid: 486cde56653e40e7a05f58ae4f5a77e3
+ExtensionType: 2
+Name: cURL Commander
+RepoName: curl-commander
+ScreenVersion: 1.0.0
+SerialVersion: 1
+MinPlatformVersion: 2
+ProOnly: False
+Author: dubey-amit
+ShortDescription: Converts curl commands into HTTP requests within Burp Suite's Repeater, eliminating manual request reconstruction. Supports different HTTP methods and request bodies.
+EntryPoint: curl-commander.py
+BuildCommand: 
+SupportedProducts: Pro, Community

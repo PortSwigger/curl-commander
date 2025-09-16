@@ -1,0 +1,33 @@
+CURL Commander is a Python-built extension for Burp Suite that facilitates the rapid conversion of clipboard-copied curl commands into HTTP requests within Burp Suites Repeater. This eliminates the need for manual request reconstruction, simplifying the workflow.
+
+<h2>Features</h2>
+
+CURL Commander includes:
+
+- <strong>Instant Import:</strong> Quickly parse curl commands directly from your clipboard.
+- <strong>Easy Integration:</strong> Seamlessly work with a right-click context menu item.
+- <strong>Robust Parsing:</strong> 
+  - Manages multiple headers (-H, --header)
+  - Supports different HTTP methods (GET, POST, PUT, DELETE, etc.)
+  - Supports request bodies, including JSON, form-data, multipart, and URL-encoded options.
+  
+<h2>Usage</h2>
+
+Heres how to use the CURL Commander:
+
+1. Copy a valid curl command to your clipboard. For instance:
+
+<pre class=pre-wrap><code class=Code>
+curl -X POST https://example.com/api \\
+     -H Authorization: Bearer TOKEN \\
+     -H Content-Type: application/json \\
+     -d {key:value}
+</code></pre>
+
+2. In Burp Suite, right-click anywhere and choose:
+
+<code class=InlineCode>Curl-Commander &rarr; Send CURL to Repeater</code>
+
+3. The request will automatically open in a new Repeater tab.
+
+Note: This extension is licensed under MIT (C) amitdubey. Contributions, including issues and pull requests, are welcome for enhancements or bug fixes.
